@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <!-- For DataTables -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+</head>
+
+<body>
+    <h1>Data Table</h1>
+    <div class="container">
+        <table id="mytable" class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody id="tabledata">
+                <tr>
+                    <th>Delhi</th>
+                    <th>India</th>
+                </tr>
+                <tr>
+                    <th>London</th>
+                    <th>UK</th>
+                </tr>
+                <tr>
+                    <th>Paris</th>
+                    <th>France</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#mytable').DataTable()
+        })
+    </script>
+</body>
+
+</html>

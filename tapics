@@ -1,0 +1,78 @@
+Ecma Script
+Ecma 5
+Ecma 6
+Ecma 7
+> DataTypes
+> variable
+> Operations
+> String
+> String literals
+> Math
+> localstorage
+> sessionStorage
+> cookies
+> let, const
+> condition
+> if else
+> ternery Operations
+> switch
+> Date
+> array
+> loops
+> github
+> Functions
+> Rest
+> Es6
+    > maps,filter
+> regex
+> Spread
+> Clousers
+> Hoisting
+> JSON
+> Es6
+    > Transpile
+    > import export
+> package.JSON
+> npm
+> this 
+> object
+> Prototypes
+> Es6
+    > classes
+> DoM
+> Calc
+> Geolocation
+> currenyConvertor
+> promis
+> async await
+> Dynamic DropDown
+> Form validation
+> Event
+> Call/Apply
+> screen
+> Progress bar
+> Baisc Jquery
+> Weather application
+> ajax
+> DataTables
+> fabonicci
+> factorial
+> palindrome
+/////////////////
+
+
+
+
+
+var a="123Text456"
+var b="text123456"
+
+Number(a) /// 123
+Number(b) /// NaN
+
+///////
+> go inside folder
+> npm init -y
+
+> npm i @babel/core @babel/register @babel/preset-env
+
